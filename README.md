@@ -1,4 +1,8 @@
 # tcp-shell
+DEMO AND WORKING EXAMPLE
+
+needs basic concepts about networking in python
+
 hacking through tcp reverse shell to dump victims data
 HERE i have provided two files 
 
